@@ -58,6 +58,10 @@ html {
     padding-right: 2rem;
 }
 
+#header-menu {
+    display: none;
+}
+
 /*Header banner text*/
 #headder-banner-text-offset {
     margin-left: 2rem;
@@ -178,6 +182,11 @@ footer {
     }
     
     /*Header*/
+    #banner {
+        height: 22rem;
+        background-position: 20%;
+    }
+    
     #header-bar-container {
         margin-top: 0rem;
     }
@@ -185,12 +194,116 @@ footer {
     #headder-banner-text-offset {
         margin-left: 0rem;
         padding-right: 2rem;
-        justify-content: flex-end;
     }
 
     #header-banner-text {
         font-size: 1.33rem;
         padding: .75rem 4rem; 
         margin-top: 10rem;
+    }
+}
+
+@media only screen and (max-width: 470px) {  
+    /*Header*/
+    #header-title {
+        display: none;
+    }
+    
+    #header-nav a:not(#header-menu) {
+        display: none;
+    }
+    
+    #header-menu {
+        display: block;
+    }
+    
+    #banner {
+        height: 17rem;
+        background-position: 20%;
+    }
+    
+    #headder-banner-text-offset {
+        margin-left: 0rem;
+        padding-right: 0rem;
+    }
+
+    #header-banner-text {
+        font-size: 1.33rem;
+        padding: 1rem 0rem; 
+        margin-top: 9rem;
+        width: 100%;
+        text-align: center;   
+    }
+    
+    /*Services section*/
+    #services {
+        flex-direction: column;
+        margin: 3.77rem 0rem;
+    }
+
+    .service {
+        width: 5rem;
+        height: 8rem;
+        margin-top: 1.45rem;
+    }
+    
+    .service p {
+        font-size: .77rem;
+        padding: 0rem;
+    }
+    
+    /*Information section*/
+    #info {
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 100%;
+        margin-bottom: 5rem;
+    }
+
+    #info article {
+        width: 100%;
+    }
+
+    #philosophy {
+        margin-right: 0rem;
+        margin-bottom: 4rem;
+    }
+
+    #appointments {
+        margin-left: 0rem;
+    }
+    
+    #info article {
+        width: 100%;
+    }
+
+    #info article h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    #info article p {
+        font-size: .77rem;
+    }
+
+    /*Footer*/
+/*
+    footer {
+        justify-content: center;
+    }
+*/
+
+    #footer-content-container {
+        justify-content: center;
+        width: 100%;
+    }
+
+    #footer-logo {
+        margin-left: 0rem;
+    }
+
+    #footer-text {
+/*        margin-left: 1rem;*/
+        display: none;
     }
 }
