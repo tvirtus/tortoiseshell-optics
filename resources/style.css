@@ -141,3 +141,25 @@ main {
     color: white;
     width: 10rem;
 }
+
+/*Footer*/
+footer {
+    justify-content: center;
+}
+
+#footer-content-container {
+    background-color: azure;
+    padding: 4rem 0rem;
+}
+
+
+#footer-logo {
+    margin-left: 4rem;
+}
+#footer-logo img {
+    height: 1.5rem;
+}
+
+#footer-text {
+    margin-left: 1rem;
+}
