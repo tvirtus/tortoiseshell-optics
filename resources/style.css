@@ -56,7 +56,6 @@ html {
     color: inherit;
     text-decoration: none;
     padding-right: 2rem;
-    
 }
 
 /*Header banner text*/
@@ -68,4 +67,48 @@ html {
     padding: 1.5rem 5rem; 
     margin-top: 10rem;
     align-self: flex-end;
+}
+
+/*Services section*/
+main {
+    justify-content: center;
+}
+
+#main-content-container {
+    flex-direction: column;
+    align-items: center;
+}
+
+#services {
+    display: flex;
+}
+
+.service {
+    width: 5rem;
+    height: 8rem;
+    margin: 3rem 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.service p {
+    align-self: center;
+    text-align: center;
+}
+
+.service img {
+    align-self: center;
+}
+
+#fitting img {
+    width: 5rem;
+}
+
+#exam img {
+    width: 3.5rem;
+}
+
+#delivery img{
+    width: 5rem;
 }
