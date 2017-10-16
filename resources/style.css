@@ -112,3 +112,32 @@ main {
 #delivery img{
     width: 5rem;
 }
+
+/*Information section*/
+#info {
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 5rem;
+}
+
+#info article {
+    width: 35%;
+}
+
+#philosophy {
+    margin-right: 2.5rem;
+}
+
+#appointments {
+    margin-left: 2.5rem;
+}
+
+
+#info article h2 {
+    background-color: cadetblue;
+    padding: 0.25rem 1.25rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    width: 10rem;
+}
